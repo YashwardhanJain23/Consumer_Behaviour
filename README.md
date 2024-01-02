@@ -1,28 +1,34 @@
 # eCommerce Customer Analysis with R
 
-This project explores an eCommerce customer dataset to derive insights into customer behavior, segmentation, and churn rate using R.
+This project performs an analysis of an eCommerce customer dataset using R to derive insights into customer behavior, segmentation, and churn rate.
 
 ## Overview
 
 The analysis focuses on understanding various aspects of customer behavior and patterns within an eCommerce platform using R. It includes:
 
-- **Browsing Behavior Analysis:** Investigates the relationship between product browsing time and total pages viewed.
-- **Customer Segmentation:** Utilizes Customer Lifetime Value (CLV) to segment customers into Low, Medium, and High Value categories.
+- **Data Exploration:** Summary statistics, visualization of distributions, and categorical summaries.
+- **Relationship Analysis:** Investigates the correlation between browsing behavior and page views.
+- **Customer Segmentation:** Segments customers based on Customer Lifetime Value (CLV).
 - **Churn Rate Calculation:** Determines the proportion of customers with no purchases.
 
-## Data
+## Usage
 
-The dataset used for analysis contains information about eCommerce customers, including attributes such as age, gender, browsing behavior, total purchases, and device type.
+The analysis is performed entirely in R and uses several libraries, including `plotly`, `dplyr`, `tidyr`, and `readr`.
 
 ## Files
 
-- `analysis.R`: R script containing the analysis conducted.
+- `analysis.R`: R script containing the entire analysis conducted.
 - `ecommerce_customer_data.csv`: Dataset used for analysis.
 
-## Analysis
+## Analysis Steps
 
-- Conducted using R to explore various aspects of customer behavior and trends within the dataset.
-- Utilized R libraries such as `dplyr`, `plotly`, and `tidyr` for data manipulation, visualization, and analysis.
+The analysis script `analysis.R` is divided into several sections, including:
+
+- Data loading and summary statistics.
+- Visualization of distributions (e.g., histograms, bar charts).
+- Exploration of relationships (e.g., scatter plots, trendlines).
+- Customer segmentation based on CLV.
+- Calculation of churn rate.
 
 ## Results
 
@@ -32,4 +38,4 @@ The dataset used for analysis contains information about eCommerce customers, in
 
 ## Conclusion
 
-The insights gained from this R-based analysis can inform strategies for customer engagement, marketing efforts, and retention strategies aimed at sustained business growth.
+The insights derived from this R-based analysis provide valuable information for understanding customer behavior and trends within the eCommerce platform. The lack of a strong correlation between browsing time and page views suggests several factors influencing user engagement. Segmentation based on CLV and the calculated churn rate can guide strategies for user engagement, marketing efforts, and customer retention.
